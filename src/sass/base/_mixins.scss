@@ -1,0 +1,10 @@
+@mixin subtitle {
+    font: {
+        color: $grey-color;
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    text-transform: uppercase;
+}

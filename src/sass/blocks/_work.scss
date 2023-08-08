@@ -1,0 +1,22 @@
+.work{
+    padding-top: 50px;
+    &__item{
+        max-width: 360px;
+        &-subtitle{
+            margin-top: 27px;
+            text-align: center;
+        }
+        &-descr{
+            font-family: Roboto;
+            font-weight: 300;
+            text-align: center;
+        }
+    }
+    &__items{
+        display: flex;
+        margin-top: 36px;
+        margin-bottom: 57px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}

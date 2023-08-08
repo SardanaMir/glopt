@@ -1,0 +1,28 @@
+.footer{
+    min-height: 201px;
+    background-color: #25333c;
+    padding-top: 24px;
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    &__text{
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: left;
+
+    }
+    &__divider{
+        width: 1171px;
+        height: 1px;
+        background-color: #ffffff;
+        opacity: 0.3;
+        margin-top: 26px;
+
+    }
+}

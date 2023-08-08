@@ -1,0 +1,35 @@
+.menu{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;   
+    &__list{
+        display: flex;
+        justify-content: space-around;
+        width: 600px;
+        height: 14px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        margin-left: 55px;
+        list-style-type: none;
+    }
+    &__contact{
+        margin-left: 50px;
+        &-phone{
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 24px;
+        }
+        &-text{
+            color: #ffffff;
+        }
+    }
+    &__btn{
+        margin-left: 19px;
+    }
+}
