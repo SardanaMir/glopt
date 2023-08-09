@@ -220,11 +220,11 @@
             <div class="consultation__header">Заказать бесплатную консультацию</div>
             <div class="consultation__img"><img src="/src/icons/consultation/Layer_13.svg" alt=""></div>
             <form class="consultation__form">
-                <input class="consultation__input" type="name" placeholder="Ваше имя..." required>
+                <input class="consultation__input" type="name" placeholder="Ваше имя..."required>
                 <input class="consultation__input" type="phone" placeholder="Ваш номер телефона..." required>
                 <input class="consultation__input" type="email" placeholder="Ваш e-mail..." required>
+                <button class="consultation__btn btn">отправить</button>
             </form>
-            <button class="consultation__btn btn">отправить заявку</и>
         </div>
     </section>
 
@@ -344,8 +344,8 @@
                         <input class="question__input" type="phone" placeholder="Ваш номер телефона..." required>
                         <input class="question__input" type="email" placeholder="Ваш e-mail..." required>
                         <input class="question__textarea" type="textarea" placeholder="Ваш сообщение...">
+                        <button class="question__btn btn">Подробнее</button>
                     </form>
-                    <button class="question__btn btn">Подробнее</button>
                 </div>
             </div>
         </div>
@@ -373,11 +373,11 @@
             <div class="modal-window__close">&times;</div>
             <div class="modal-window__subtitle subtitle">оставьте свои данные</div>
             <form class="modal-window__form question__form">
-                <input class="question__input modal-window__input" type="name" placeholder="Ваше имя..." required>
-                <input class="question__input modal-window__input" type="phone" placeholder="Ваш номер телефона..." required>
+                <input class="question__input modal-window__input" type="name" placeholder="Ваше имя...">
+                <input class="question__input modal-window__input" type="phone" placeholder="Ваш номер телефона..." pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                 <input class="question__input modal-window__input" type="email" placeholder="Ваш e-mail..." required>
+                <button class="modal-window__btn btn">отправить</button>
             </form>
-            <button class="modal-window__btn btn">отправить</button>
         </div>
     </div>
 
